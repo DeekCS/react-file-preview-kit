@@ -991,7 +991,7 @@ const V2 = (H) => {
   return /* @__PURE__ */ t(
     "div",
     {
-      className: `flex items-center p-4 gap-6 bg-white ${V ? "min-w-[300px] flex-shrink-0" : "w-[350px] "}`,
+      className: `flex items-center p-4 gap-6 bg-white ${V ? "min-w-[300px] flex-shrink-0" : "w-full"}`,
       style: {
         boxShadow: "0px 4px 4px 0px rgba(0, 0, 0, 0.08)",
         borderRadius: "0.75rem",

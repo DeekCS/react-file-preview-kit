@@ -153,7 +153,7 @@ const SingleFilePreview: React.FC<{
   return (
     <div
       className={`flex items-center p-4 gap-6 bg-white ${
-        isHorizontal ? 'min-w-[300px] flex-shrink-0' : 'w-[350px] '
+        isHorizontal ? 'min-w-[300px] flex-shrink-0' : 'w-full'
       }`}
       style={{
         boxShadow: '0px 4px 4px 0px rgba(0, 0, 0, 0.08)',
