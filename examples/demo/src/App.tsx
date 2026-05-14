@@ -35,7 +35,8 @@ export default function App() {
             files={files}
             onDelete={(file) => setDeleted((prev) => [...prev, file.name])}
             onView={(file) => alert(`Viewing: ${file.name}`)}
-            scrollDirection="vertical"
+            scrollDirection="none"
+            containerClassName="w-full"
           />
           {deleted.length > 0 && (
             <button
