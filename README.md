@@ -22,6 +22,16 @@ module.exports = {
 }
 ```
 
+## Demo App
+
+A simple Vite + React + Tailwind demo app lives in `examples/demo/` and showcases `FilePreview`, `FileIcon`, and `getFileIcon`.
+
+```bash
+cd examples/demo
+npm install
+npm run dev
+```
+
 ## Usage
 
 ### FilePreview — full file card UI
