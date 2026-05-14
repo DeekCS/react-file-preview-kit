@@ -1,6 +1,6 @@
 {
   "name": "@kareem-dev/react-file-preview-kit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "React file preview component with 50+ file type icons. Accepts extensions, MIME types, or filenames.",
   "main": "dist/index.cjs.js",
   "module": "dist/index.es.js",
@@ -53,6 +53,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YOUR_USERNAME/react-file-preview-kit.git"
+    "url": "git+https://github.com/DeekCS/react-file-preview-kit.git"
+  },
+  "homepage": "https://github.com/DeekCS/react-file-preview-kit#readme",
+  "bugs": {
+    "url": "https://github.com/DeekCS/react-file-preview-kit/issues"
   }
 }
